@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8afcbbd1c192e7dd7c00bc08b9a70f70 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8afcbbd1c192e7dd7c00bc08b9a70f70" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8afcbbd1c192e7dd7c00bc08b9a70f70 = L.map(
+                "map_8afcbbd1c192e7dd7c00bc08b9a70f70",
+                {
+                    center: [1.1637434569552476e+16, -6982757181691592.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+
+            
+
+        
+    
+            var tile_layer_e3f925bf6a56f609ca2c76e81f079e80 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var marker_1ec460f751833bff09f8936f5ed7a89e = L.marker(
+                [4070625453377100.0, -7400899043535960.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_f27baf0a218ee27b584197e9b379c08e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ec460f751833bff09f8936f5ed7a89e.setIcon(icon_f27baf0a218ee27b584197e9b379c08e);
+        
+    
+        var popup_47a5bc4a6e91b92674eff18f5de3cf3b = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_def2bf45fc2531b06a56644625a47ebb = $(`<div id="html_def2bf45fc2531b06a56644625a47ebb" style="width: 100.0%; height: 100.0%;"><b>Wall Street</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>Es el corazón histórico del distrito financiero de USA y acá se encuentra la bolsa de New York.  El número 23 es un edificio que denota el bombardeo del año 20, el número 40 es el edificio Trump.</div>`)[0];
+            popup_47a5bc4a6e91b92674eff18f5de3cf3b.setContent(html_def2bf45fc2531b06a56644625a47ebb);
+        
+
+        marker_1ec460f751833bff09f8936f5ed7a89e.bindPopup(popup_47a5bc4a6e91b92674eff18f5de3cf3b)
+        ;
+
+        
+    
+    
+            marker_1ec460f751833bff09f8936f5ed7a89e.bindTooltip(
+                `<div>
+                     Wall Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a6ca025a30f633a5cb987cbb1280a1a = L.marker(
+                [4.07069989671756e+16, -7401135123535960.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_d0eb551a0d481eb8bf306102acd4afed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a6ca025a30f633a5cb987cbb1280a1a.setIcon(icon_d0eb551a0d481eb8bf306102acd4afed);
+        
+    
+        var popup_8ae32e006347113a26f0b9a4b526ea9b = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_b6bdacb37de17efd18027b15f3ba78cb = $(`<div id="html_b6bdacb37de17efd18027b15f3ba78cb" style="width: 100.0%; height: 100.0%;"><b>New York Stock Exchange</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>Bolsa de New York, en dónde se sucitaron fechas claves como la caída del año 1929 (martes y jueves negro). Es reconocida por su fachada imponente, en dónde se distinguen 6 columnas corintias. No se puede visitar después del 11/09</div>`)[0];
+            popup_8ae32e006347113a26f0b9a4b526ea9b.setContent(html_b6bdacb37de17efd18027b15f3ba78cb);
+        
+
+        marker_3a6ca025a30f633a5cb987cbb1280a1a.bindPopup(popup_8ae32e006347113a26f0b9a4b526ea9b)
+        ;
+
+        
+    
+    
+            marker_3a6ca025a30f633a5cb987cbb1280a1a.bindTooltip(
+                `<div>
+                     New York Stock Exchange
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49b3cd3390965daa77aa767df712f264 = L.marker(
+                [4070385517254240.0, -7400870545923030.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_a410835b7d23a1b5d46f9cd027fa5085 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49b3cd3390965daa77aa767df712f264.setIcon(icon_a410835b7d23a1b5d46f9cd027fa5085);
+        
+    
+        var popup_95ac16630710297c7d98e923717f782c = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_24897ff8b8c084a5151def257ee1d753 = $(`<div id="html_24897ff8b8c084a5151def257ee1d753" style="width: 100.0%; height: 100.0%;"><b>Elevated Acre</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>El Elevated Acre es un pequeño parque elevado que cuenta con zona de césped (artificial), plantas y mesitas con sillas. El jardín no es fácil de encontrar, se encuentra sobre el 55 Water Street. Desde la calle, parece que las escaleras conduzcan a uno de los muchos rascacielos que abundan en esta zona.</div>`)[0];
+            popup_95ac16630710297c7d98e923717f782c.setContent(html_24897ff8b8c084a5151def257ee1d753);
+        
+
+        marker_49b3cd3390965daa77aa767df712f264.bindPopup(popup_95ac16630710297c7d98e923717f782c)
+        ;
+
+        
+    
+    
+            marker_49b3cd3390965daa77aa767df712f264.bindTooltip(
+                `<div>
+                     Elevated Acre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ab9fedc897a89732e08eada7390439b = L.marker(
+                [4070760259597280.0, -7401018734700240.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_01789e098ca9840c7d8483674838858e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5ab9fedc897a89732e08eada7390439b.setIcon(icon_01789e098ca9840c7d8483674838858e);
+        
+    
+        var popup_aeeeb1587ba2617fdc38f6154e96bfa0 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_73815f02cc98ffaa1e2e49f237e2b696 = $(`<div id="html_73815f02cc98ffaa1e2e49f237e2b696" style="width: 100.0%; height: 100.0%;"><b>Federal Hall</b><br><b>Horario:</b> Lu-Vi: 10-17<br><b>Costo:</b> Gratis<br><br>En este edificio se nombró en 1789 a George Washington como primer presidente de USA. Hoy es un museo sobre el período fundacional y los comienzos de USA. Hay tours guiados a cada hora en punto desde las 10 am</div>`)[0];
+            popup_aeeeb1587ba2617fdc38f6154e96bfa0.setContent(html_73815f02cc98ffaa1e2e49f237e2b696);
+        
+
+        marker_5ab9fedc897a89732e08eada7390439b.bindPopup(popup_aeeeb1587ba2617fdc38f6154e96bfa0)
+        ;
+
+        
+    
+    
+            marker_5ab9fedc897a89732e08eada7390439b.bindTooltip(
+                `<div>
+                     Federal Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f963b3ad5e978d3963cbafcd86a106a3 = L.marker(
+                [4075181583332270.0, -7397552346234240.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_10d9f0672ce852933b54bfa086e65791 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f963b3ad5e978d3963cbafcd86a106a3.setIcon(icon_10d9f0672ce852933b54bfa086e65791);
+        
+    
+        var popup_6c5f0108230cee73b6e4b5ea1a4dc7a1 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_7cc82642e1b89d9a524d583052d564b5 = $(`<div id="html_7cc82642e1b89d9a524d583052d564b5" style="width: 100.0%; height: 100.0%;"><b>Edificio Chrysler</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>Edificio más alto de Wall Street</div>`)[0];
+            popup_6c5f0108230cee73b6e4b5ea1a4dc7a1.setContent(html_7cc82642e1b89d9a524d583052d564b5);
+        
+
+        marker_f963b3ad5e978d3963cbafcd86a106a3.bindPopup(popup_6c5f0108230cee73b6e4b5ea1a4dc7a1)
+        ;
+
+        
+    
+    
+            marker_f963b3ad5e978d3963cbafcd86a106a3.bindTooltip(
+                `<div>
+                     Edificio Chrysler
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4624f5d0ab3b667ab1164d637ab19981 = L.marker(
+                [4071288038874130.0, -7400593358933060.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_3eeef74fd92226c54b323b5ad449a6ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4624f5d0ab3b667ab1164d637ab19981.setIcon(icon_3eeef74fd92226c54b323b5ad449a6ce);
+        
+    
+        var popup_1fb45958e0cc3f756199276e72f121f8 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_de4c657d80026b9091a6d4261227b18b = $(`<div id="html_de4c657d80026b9091a6d4261227b18b" style="width: 100.0%; height: 100.0%;"><b>City Hall</b><br><b>Horario:</b> Ju: 10<br><b>Costo:</b> Gratis, con reserva previa<br><br>Alcaldía de la ciudad, dónde tiene su oficina el alcalde de la ciudad. El edificio data de 1812. Actualmente se encuentra vallado y solo se puede acceder con tours</div>`)[0];
+            popup_1fb45958e0cc3f756199276e72f121f8.setContent(html_de4c657d80026b9091a6d4261227b18b);
+        
+
+        marker_4624f5d0ab3b667ab1164d637ab19981.bindPopup(popup_1fb45958e0cc3f756199276e72f121f8)
+        ;
+
+        
+    
+    
+            marker_4624f5d0ab3b667ab1164d637ab19981.bindTooltip(
+                `<div>
+                     City Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7111b7f3c8f29495bbd961081fb4847f = L.marker(
+                [407064599375835.0, -7399706790977540.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_b5a614a83e3dde959858e8b8b7696758 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7111b7f3c8f29495bbd961081fb4847f.setIcon(icon_b5a614a83e3dde959858e8b8b7696758);
+        
+    
+        var popup_6c72b4b293207b4852adb6c23882336c = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_5f2b12a31f5e264da05c35b6dc501bf4 = $(`<div id="html_5f2b12a31f5e264da05c35b6dc501bf4" style="width: 100.0%; height: 100.0%;"><b>Brooklyn Bridge</b><br><b>Horario:</b> -<br><b>Costo:</b> Gratis<br><br>Puente icónico que conecta Manhattan con Brookly. Se puede atravesar en auto, en bici o a pie. Cruzarlo lleva unos 20-30 min. Hay una vía peatonal que se encuentra sobre el pavimento y va por el centro del puente, desde dónde se observa la típica postal de Manhattan.</div>`)[0];
+            popup_6c72b4b293207b4852adb6c23882336c.setContent(html_5f2b12a31f5e264da05c35b6dc501bf4);
+        
+
+        marker_7111b7f3c8f29495bbd961081fb4847f.bindPopup(popup_6c72b4b293207b4852adb6c23882336c)
+        ;
+
+        
+    
+    
+            marker_7111b7f3c8f29495bbd961081fb4847f.bindTooltip(
+                `<div>
+                     Brooklyn Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cf72563825022b43b3019a149f0a8fc = L.marker(
+                [407132479872599.0, -7400796079040210.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_5f20763ed1f58225d944ead251e26238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8cf72563825022b43b3019a149f0a8fc.setIcon(icon_5f20763ed1f58225d944ead251e26238);
+        
+    
+        var popup_e7c063f95ef488f835c04b6c829bcacd = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_7c4ca84fb7471ab4318b81a86515836c = $(`<div id="html_7c4ca84fb7471ab4318b81a86515836c" style="width: 100.0%; height: 100.0%;"><b>Edificio Woolworth</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>Edificio neo-gótco, uno de los rascacielos más antíguos y altos de la ciudad. Se lo conoce como la Catedral del Comercio</div>`)[0];
+            popup_e7c063f95ef488f835c04b6c829bcacd.setContent(html_7c4ca84fb7471ab4318b81a86515836c);
+        
+
+        marker_8cf72563825022b43b3019a149f0a8fc.bindPopup(popup_e7c063f95ef488f835c04b6c829bcacd)
+        ;
+
+        
+    
+    
+            marker_8cf72563825022b43b3019a149f0a8fc.bindTooltip(
+                `<div>
+                     Edificio Woolworth
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f50046e203020b057c01f36656ccd76 = L.marker(
+                [4071168329362150.0, -7401322891631630.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_3a53cc1b18c871bc2c0a55b60d75685a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1f50046e203020b057c01f36656ccd76.setIcon(icon_3a53cc1b18c871bc2c0a55b60d75685a);
+        
+    
+        var popup_9bb654a2d25a72f14c0296b7f5573b37 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_975aff77ed6e957eb7e9b5ed3ea2825a = $(`<div id="html_975aff77ed6e957eb7e9b5ed3ea2825a" style="width: 100.0%; height: 100.0%;"><b>World Trade Center - 11/09 Memorial</b><br><b>Horario:</b> Lu, Mi - Do: Plaza: 8.30 - 20, Museo : 9 - 19<br><b>Costo:</b> Museo: 36 USD<br><br>Sitio en dónde se erigian las torres gemelas derribadas en el atentado del 11 de septiembre. Actualmente, y luego de un largo debate público, se están construyendo torres nuevas. En este punto además se puede ver el memorial a las víctimas del atentado en la plaza y un museo que muestra la historia del fatídico día.</div>`)[0];
+            popup_9bb654a2d25a72f14c0296b7f5573b37.setContent(html_975aff77ed6e957eb7e9b5ed3ea2825a);
+        
+
+        marker_1f50046e203020b057c01f36656ccd76.bindPopup(popup_9bb654a2d25a72f14c0296b7f5573b37)
+        ;
+
+        
+    
+    
+            marker_1f50046e203020b057c01f36656ccd76.bindTooltip(
+                `<div>
+                     World Trade Center - 11/09 Memorial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cba568dd6ee5b3a5c2af9f745447c84b = L.marker(
+                [4.07079889422184e+16, -7401185274727360.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_3eda8593fbd8d800b2d431219bfaf8bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cba568dd6ee5b3a5c2af9f745447c84b.setIcon(icon_3eda8593fbd8d800b2d431219bfaf8bf);
+        
+    
+        var popup_d1e0810ef3d8c8fcb10c52ebceb4c758 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_bb162de5e7c8d7f29fedef39378665ef = $(`<div id="html_bb162de5e7c8d7f29fedef39378665ef" style="width: 100.0%; height: 100.0%;"><b>Iglesia de la Trinidad</b><br><b>Horario:</b> Lu - Vi: 9 -11.45, 13 - 15.45, Sa: 10 - 15.45, Do: 13 - 15.45<br><b>Costo:</b> Gratis<br><br>Iglesia y parroquia anglicana que data de 1697. Hoy tiene una fachada neogótica que no es la original. En esta iglesia se encuentran enterrados muchos personajes históricos.</div>`)[0];
+            popup_d1e0810ef3d8c8fcb10c52ebceb4c758.setContent(html_bb162de5e7c8d7f29fedef39378665ef);
+        
+
+        marker_cba568dd6ee5b3a5c2af9f745447c84b.bindPopup(popup_d1e0810ef3d8c8fcb10c52ebceb4c758)
+        ;
+
+        
+    
+    
+            marker_cba568dd6ee5b3a5c2af9f745447c84b.bindTooltip(
+                `<div>
+                     Iglesia de la Trinidad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8403b35de8b2d30c7cbbe92d235a4d9a = L.marker(
+                [4072226978323810.0, -7399456748932990.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_a3031ff7d45fd3e1350723ceca1769dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8403b35de8b2d30c7cbbe92d235a4d9a.setIcon(icon_a3031ff7d45fd3e1350723ceca1769dc);
+        
+    
+        var popup_166d053f8877731352a34e7e1b512eb0 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_1c2138f9a7f9ae8d665ed0a574db5bb8 = $(`<div id="html_1c2138f9a7f9ae8d665ed0a574db5bb8" style="width: 100.0%; height: 100.0%;"><b>Elizabeth Street Garden</b><br><b>Horario:</b> 10 hasta el atardecer<br><b>Costo:</b> Gratis<br><br>Es un jardín comunitario donde podrás encontrar esculturas que parecen salidas del antiguo Egipto, plantas y espacios abiertos, sitios de descanso donde poder leer y descansar. Ocupa un terreno dónde originalmente se hallaba una escuela. El jardín se ha mantenido gracias al esfuerzo de la comunidad local y la organización sin fines de lucro Friends of Elizabeth Street Garden, algo muy similar como lo que ocurre con el parque High Line. El Elizabeth Street Garden está ubicado en Elizabeth St, entre las calles de Prince St y Spring St.</div>`)[0];
+            popup_166d053f8877731352a34e7e1b512eb0.setContent(html_1c2138f9a7f9ae8d665ed0a574db5bb8);
+        
+
+        marker_8403b35de8b2d30c7cbbe92d235a4d9a.bindPopup(popup_166d053f8877731352a34e7e1b512eb0)
+        ;
+
+        
+    
+    
+            marker_8403b35de8b2d30c7cbbe92d235a4d9a.bindTooltip(
+                `<div>
+                     Elizabeth Street Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9bf4e4cd434a2ba07fe0d837183a62f = L.marker(
+                [4068936326426700.0, -7404443603166060.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_f949d44d1b982488a4bcfcaeb703653b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9bf4e4cd434a2ba07fe0d837183a62f.setIcon(icon_f949d44d1b982488a4bcfcaeb703653b);
+        
+    
+        var popup_934357452b4bb7f4052e58d04ba2594a = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_90495ed554db2c80494798cd0eb87f9d = $(`<div id="html_90495ed554db2c80494798cd0eb87f9d" style="width: 100.0%; height: 100.0%;"><b>Estatua de la Libertad</b><br><b>Horario:</b> -<br><b>Costo:</b> Solo ferry: 18 USD, Acceso a la corona: 32.80 USD<br><br>Ubicada en la Isla de la libertad, es un regalo de Francia a USA. Se puede llegar tomando ferries que salen del Battery Park o del Liberty State Park. Se puede acceder a la corona, pero hay que reservar con 4 meses mínimo de anticipación. También hay ferries que salen de Staten Islan (Staten Island Ferry)</div>`)[0];
+            popup_934357452b4bb7f4052e58d04ba2594a.setContent(html_90495ed554db2c80494798cd0eb87f9d);
+        
+
+        marker_c9bf4e4cd434a2ba07fe0d837183a62f.bindPopup(popup_934357452b4bb7f4052e58d04ba2594a)
+        ;
+
+        
+    
+    
+            marker_c9bf4e4cd434a2ba07fe0d837183a62f.bindTooltip(
+                `<div>
+                     Estatua de la Libertad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9dc08a90236f393098df38e58de6184 = L.marker(
+                [4069780720141030.0, -7404250771293490.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_e2046421cd7598d01a2267e0380b944a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9dc08a90236f393098df38e58de6184.setIcon(icon_e2046421cd7598d01a2267e0380b944a);
+        
+    
+        var popup_d48c4b3eca4804316d26c785d2c18fdc = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_893f193ed55220a0df749a191cd20155 = $(`<div id="html_893f193ed55220a0df749a191cd20155" style="width: 100.0%; height: 100.0%;"><b>Ellis Island</b><br><b>Horario:</b> nan<br><b>Costo:</b> nan<br><br>Isla en dónde se establecieron los primeros asentamientos de inmigrantes</div>`)[0];
+            popup_d48c4b3eca4804316d26c785d2c18fdc.setContent(html_893f193ed55220a0df749a191cd20155);
+        
+
+        marker_c9dc08a90236f393098df38e58de6184.bindPopup(popup_d48c4b3eca4804316d26c785d2c18fdc)
+        ;
+
+        
+    
+    
+            marker_c9dc08a90236f393098df38e58de6184.bindTooltip(
+                `<div>
+                     Ellis Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bbee4f45c378e34c5e2b9e81486fb98 = L.marker(
+                [4.07485461350641e+16, -739857073200141.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_b3eec74b35ba213c555af1fb3560935c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bbee4f45c378e34c5e2b9e81486fb98.setIcon(icon_b3eec74b35ba213c555af1fb3560935c);
+        
+    
+        var popup_bad9baa60f5c51742d2e715589486a28 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_75f2ac4f4806e5f215535e5af4783e37 = $(`<div id="html_75f2ac4f4806e5f215535e5af4783e37" style="width: 100.0%; height: 100.0%;"><b>Empire State</b><br><b>Horario:</b> Lu - Do: 8 - 2<br><b>Costo:</b> Hasta piso 86: 29 USD, hasta piso 102: 46<br><br>El Empire State es un rascacielos de 443 metros contruído en 1931. Hoy en día es una de las maravillas del mundo moderno, un ícono de NY que puede verse en la película King Kong y en muchas otras como Día de la Independencia.</div>`)[0];
+            popup_bad9baa60f5c51742d2e715589486a28.setContent(html_75f2ac4f4806e5f215535e5af4783e37);
+        
+
+        marker_8bbee4f45c378e34c5e2b9e81486fb98.bindPopup(popup_bad9baa60f5c51742d2e715589486a28)
+        ;
+
+        
+    
+    
+            marker_8bbee4f45c378e34c5e2b9e81486fb98.bindTooltip(
+                `<div>
+                     Empire State
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c45ba2cdf7ebb05b31a383072fadcec = L.marker(
+                [4.07594554060467e+16, -7397598113615190.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_4eeb29d5137629f8b4531294bd348a78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c45ba2cdf7ebb05b31a383072fadcec.setIcon(icon_4eeb29d5137629f8b4531294bd348a78);
+        
+    
+        var popup_8637f592b8b42c296bebf4cbac9d6356 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_2b1ac904d7eb0f78f2499e4f36c58f17 = $(`<div id="html_2b1ac904d7eb0f78f2499e4f36c58f17" style="width: 100.0%; height: 100.0%;"><b>Catedral de San Patricio</b><br><b>Horario:</b> nan<br><b>Costo:</b> nan<br><br>nan</div>`)[0];
+            popup_8637f592b8b42c296bebf4cbac9d6356.setContent(html_2b1ac904d7eb0f78f2499e4f36c58f17);
+        
+
+        marker_9c45ba2cdf7ebb05b31a383072fadcec.bindPopup(popup_8637f592b8b42c296bebf4cbac9d6356)
+        ;
+
+        
+    
+    
+            marker_9c45ba2cdf7ebb05b31a383072fadcec.bindTooltip(
+                `<div>
+                     Catedral de San Patricio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ca84d65435733d682e05518d8763777 = L.marker(
+                [407538448728343.0, -7398210250052040.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_68fec0ca91d2b1971064666f546583b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0ca84d65435733d682e05518d8763777.setIcon(icon_68fec0ca91d2b1971064666f546583b1);
+        
+    
+        var popup_d19961b5031a877e7a55675ae840fbce = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_3b72ecf829a559dbdfbca694b80c7b49 = $(`<div id="html_3b72ecf829a559dbdfbca694b80c7b49" style="width: 100.0%; height: 100.0%;"><b>Biblioteca Pública de New York</b><br><b>Horario:</b> Lu - Sa: 10 - 18<br><b>Costo:</b> Gratis<br><br>La biblioteca de NY es la segunda biblioteca más grande de USA y la tercera a nivel mundial. Fue desarrollada en el siglo XIX. Hay un audiotour gratis en https://www.nypl.org/about/locations/schwarzman/audio-tour-mobile</div>`)[0];
+            popup_d19961b5031a877e7a55675ae840fbce.setContent(html_3b72ecf829a559dbdfbca694b80c7b49);
+        
+
+        marker_0ca84d65435733d682e05518d8763777.bindPopup(popup_d19961b5031a877e7a55675ae840fbce)
+        ;
+
+        
+    
+    
+            marker_0ca84d65435733d682e05518d8763777.bindTooltip(
+                `<div>
+                     Biblioteca Pública de New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9113ac5c5f7716a668bc0b9e79420c23 = L.marker(
+                [4075895959252410.0, -7397871652001340.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_0b5df0879bb8dd907260832b606f69f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9113ac5c5f7716a668bc0b9e79420c23.setIcon(icon_0b5df0879bb8dd907260832b606f69f5);
+        
+    
+        var popup_62eb5d22752259332f2f9d3502cb10da = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_3ca0b8a96f7b17895d620add634d5ece = $(`<div id="html_3ca0b8a96f7b17895d620add634d5ece" style="width: 100.0%; height: 100.0%;"><b>Rockefeller Center</b><br><b>Horario:</b> Lu - Do: 8 - 24<br><b>Costo:</b> Acceso al Top of the Rock: 29 USD, TOR + Tour: 40 USD<br><br>Es en realidad un complejo de 19 edificios comerciales, entre los que se encuentra el Radio City Music Hall y el observatorio EG. En este centro también se encuentra una pista de patinaje en invierno y el famoso árbol de Navidad. También se encuentra el punto panorámico de Top of the Rock.</div>`)[0];
+            popup_62eb5d22752259332f2f9d3502cb10da.setContent(html_3ca0b8a96f7b17895d620add634d5ece);
+        
+
+        marker_9113ac5c5f7716a668bc0b9e79420c23.bindPopup(popup_62eb5d22752259332f2f9d3502cb10da)
+        ;
+
+        
+    
+    
+            marker_9113ac5c5f7716a668bc0b9e79420c23.bindTooltip(
+                `<div>
+                     Rockefeller Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dad591faeb08f6164f87eba05638fecf = L.marker(
+                [4075808844671390.0, -7398500616288450.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_6b60a4f323f91105da0ed97102dc64b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dad591faeb08f6164f87eba05638fecf.setIcon(icon_6b60a4f323f91105da0ed97102dc64b6);
+        
+    
+        var popup_22d8bb444b11e93cb106e253168633d9 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_a6e9ccba29e568661f23ade44c0b5e68 = $(`<div id="html_a6e9ccba29e568661f23ade44c0b5e68" style="width: 100.0%; height: 100.0%;"><b>Times Square</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>El Times Square es una intersección de Manhattan (Nueva York). Está situada en la esquina de la Avenida Broadway y la Séptima Avenida. La zona de Times Square está formada por las manzanas situadas entre las Sexta Avenida y Octava Avenida que constituyen la parte occidental de la zona comercial del centro de Manhattan. Al igual que la Plaza Roja de Moscú, Piccadilly Circus en Londres o la Plaza de Tian'anmen en Pekín, Times Square se ha convertido en un icono mundial y símbolo de la ciudad de Nueva York que se caracteriza por su animación y por la publicidad luminosa.</div>`)[0];
+            popup_22d8bb444b11e93cb106e253168633d9.setContent(html_a6e9ccba29e568661f23ade44c0b5e68);
+        
+
+        marker_dad591faeb08f6164f87eba05638fecf.bindPopup(popup_22d8bb444b11e93cb106e253168633d9)
+        ;
+
+        
+    
+    
+            marker_dad591faeb08f6164f87eba05638fecf.bindTooltip(
+                `<div>
+                     Times Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13e4322ba76d0971f4c66b4c33cf3aca = L.marker(
+                [4076514822790400.0, -7400087352001300.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_1c346f16104764d9014fdb1e72b3bbe7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_13e4322ba76d0971f4c66b4c33cf3aca.setIcon(icon_1c346f16104764d9014fdb1e72b3bbe7);
+        
+    
+        var popup_d0360abf897225be5a68afd59c3ec325 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_147b0123a8abc69e2e1fb67f20851e0d = $(`<div id="html_147b0123a8abc69e2e1fb67f20851e0d" style="width: 100.0%; height: 100.0%;"><b>Museo Intrepid Air and Space</b><br><b>Horario:</b> Lu-Vi: 10-17, Sa - Do: 10 - 18<br><b>Costo:</b> 38 USD<br><br>Ubicado sobre el muelle 86, el museo Intrepid está dedicado a la historia marítima y aeroespacial de Estados Unidos. El museo debe su nombe al transportador marítimo de aviones de la marina estadounidense, el cuál es la pieza más destacable del museo. Este buque participó en la Segunda Guerra Mundial, la Guerra Fría y la Guerra de Vietnam. El museo también alberga más de una docena de aviones y helicópteros, entre los que se encuentran el spy plane A-12 Blackbird, el F-14 Tomcat y el AV-8A Harrier. Otras piezas destacables son el submarino Growler, de la década del 50 y un avión Concorde de la compañia British Airways.</div>`)[0];
+            popup_d0360abf897225be5a68afd59c3ec325.setContent(html_147b0123a8abc69e2e1fb67f20851e0d);
+        
+
+        marker_13e4322ba76d0971f4c66b4c33cf3aca.bindPopup(popup_d0360abf897225be5a68afd59c3ec325)
+        ;
+
+        
+    
+    
+            marker_13e4322ba76d0971f4c66b4c33cf3aca.bindTooltip(
+                `<div>
+                     Museo Intrepid Air and Space
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_957c05000b94edbc9e1dc2a5d4836a0c = L.marker(
+                [4077965592419120.0, -7396326546234070.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_1cdf23fb9ea863d5d181fc4560ae8310 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_957c05000b94edbc9e1dc2a5d4836a0c.setIcon(icon_1cdf23fb9ea863d5d181fc4560ae8310);
+        
+    
+        var popup_5e2adb4150c227fb37ccb1b669f8bd7b = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_7be56604c0e99dcda57bc89a63d4fc30 = $(`<div id="html_7be56604c0e99dcda57bc89a63d4fc30" style="width: 100.0%; height: 100.0%;"><b>Museo de Arte Metropolitano</b><br><b>Horario:</b> Do - Ju: 10 - 17.30, Vi - Sa: 10 - 21<br><b>Costo:</b> 30 USD<br><br>El museo data de 1872 y cuenta con más de dos millones de obras de arte. Están expuestas obras maestras de Rafael, Tiziano, el Greco, Rembrandt, Velázquez, Picasso, Pollock, Braque y muchos más.</div>`)[0];
+            popup_5e2adb4150c227fb37ccb1b669f8bd7b.setContent(html_7be56604c0e99dcda57bc89a63d4fc30);
+        
+
+        marker_957c05000b94edbc9e1dc2a5d4836a0c.bindPopup(popup_5e2adb4150c227fb37ccb1b669f8bd7b)
+        ;
+
+        
+    
+    
+            marker_957c05000b94edbc9e1dc2a5d4836a0c.bindTooltip(
+                `<div>
+                     Museo de Arte Metropolitano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb45a95124a36febbeaba6ad28635a37 = L.marker(
+                [4078304456142130.0, -7395809084013990.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_73735e3b0829a012936224f24c1f48f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb45a95124a36febbeaba6ad28635a37.setIcon(icon_73735e3b0829a012936224f24c1f48f5);
+        
+    
+        var popup_cb5aeb2f4aab872fe0cbbe7db3f3063c = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_c1bbdb75d80cc3f67e2b4a0716ca0ca9 = $(`<div id="html_c1bbdb75d80cc3f67e2b4a0716ca0ca9" style="width: 100.0%; height: 100.0%;"><b>Museo Guggenheim</b><br><b>Horario:</b> Do - Mi, Vi: 10 - 17.45, Sa: 10 - 19.45<br><b>Costo:</b> 30 USD<br><br>El museo Guggneheim fue el primero de la fundación en abrirse y es uno de los museos de arte moderno más importantes.</div>`)[0];
+            popup_cb5aeb2f4aab872fe0cbbe7db3f3063c.setContent(html_c1bbdb75d80cc3f67e2b4a0716ca0ca9);
+        
+
+        marker_bb45a95124a36febbeaba6ad28635a37.bindPopup(popup_cb5aeb2f4aab872fe0cbbe7db3f3063c)
+        ;
+
+        
+    
+    
+            marker_bb45a95124a36febbeaba6ad28635a37.bindTooltip(
+                `<div>
+                     Museo Guggenheim
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_185ee47785a006ccf2c5d8af0ebecb0b = L.marker(
+                [407615139352715.0, -7397753577398460.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_2b39d43d0fdfa8f8fc6f6bc053e06ea9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_185ee47785a006ccf2c5d8af0ebecb0b.setIcon(icon_2b39d43d0fdfa8f8fc6f6bc053e06ea9);
+        
+    
+        var popup_22d51705cc6d7537f401f5c3d773e769 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_b871db0e1b4db2235b421b8ca6462f7f = $(`<div id="html_b871db0e1b4db2235b421b8ca6462f7f" style="width: 100.0%; height: 100.0%;"><b>Museo de Arte Moderno (MoMA)</b><br><b>Horario:</b> Sa - Do: 10 - 17.30, Vi: 10 - 20.30<br><b>Costo:</b> 30 USD - Vi: Gratis a partir de las 17.30. Hay que reservar online<br><br>Es el museo de arte moderno más influente del mundo. El museo ofrece una visión de arte moderno y contemporáneo, incluyendo trabajos de arquitectura, diseño, dibujo, pintura, escultura, fotografía, ilustraciones, films y medios electrónicos. Las obras más famosas son "Las señoritas de Avignon" de Picasso, "El cielo estrellado" de Van Gogh y "Sopa Campbell" de Andy Warhol. Hay que subir a la terraza del último piso!</div>`)[0];
+            popup_22d51705cc6d7537f401f5c3d773e769.setContent(html_b871db0e1b4db2235b421b8ca6462f7f);
+        
+
+        marker_185ee47785a006ccf2c5d8af0ebecb0b.bindPopup(popup_22d51705cc6d7537f401f5c3d773e769)
+        ;
+
+        
+    
+    
+            marker_185ee47785a006ccf2c5d8af0ebecb0b.bindTooltip(
+                `<div>
+                     Museo de Arte Moderno (MoMA)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09b3983cab61b58f26d104dcf9872631 = L.marker(
+                [4078279838523840.0, -7396555121816190.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_2e5d6c4dc871c5b753cb6d30fea53c50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_09b3983cab61b58f26d104dcf9872631.setIcon(icon_2e5d6c4dc871c5b753cb6d30fea53c50);
+        
+    
+        var popup_ced3d515e623568f60227bb5765f9feb = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_07a14c8f0f5d41fb652f619b7aa8c0fb = $(`<div id="html_07a14c8f0f5d41fb652f619b7aa8c0fb" style="width: 100.0%; height: 100.0%;"><b>Central Park</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>El Central Park es uno de los parques urbanos más famosos y grandes del mundo. Contiene lagos artificiales, dos pistas de patinaje y áreas para la práctica de deportes. Los lugares emblemáticos son la fuente de Alicia en el país de las maravillas, el zoológico, Strawberry Fields, el castillo Belvedere, The Mall, el conservatorio, The pond, Sheep Meadows, entre otros.</div>`)[0];
+            popup_ced3d515e623568f60227bb5765f9feb.setContent(html_07a14c8f0f5d41fb652f619b7aa8c0fb);
+        
+
+        marker_09b3983cab61b58f26d104dcf9872631.bindPopup(popup_ced3d515e623568f60227bb5765f9feb)
+        ;
+
+        
+    
+    
+            marker_09b3983cab61b58f26d104dcf9872631.bindTooltip(
+                `<div>
+                     Central Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c598ab542f1d3c79eebe49e6d0eade1 = L.marker(
+                [4086273116549970.0, -7393134242000680.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_55145ea02457b650fec9a5000559f872 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c598ab542f1d3c79eebe49e6d0eade1.setIcon(icon_55145ea02457b650fec9a5000559f872);
+        
+    
+        var popup_866dd290a459d23526d09341c12eb5f6 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_7fbe83b3249983e007cf487212575d73 = $(`<div id="html_7fbe83b3249983e007cf487212575d73" style="width: 100.0%; height: 100.0%;"><b>Fort Tryon Park</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>Parque público localizado en Hudson Heights .</div>`)[0];
+            popup_866dd290a459d23526d09341c12eb5f6.setContent(html_7fbe83b3249983e007cf487212575d73);
+        
+
+        marker_5c598ab542f1d3c79eebe49e6d0eade1.bindPopup(popup_866dd290a459d23526d09341c12eb5f6)
+        ;
+
+        
+    
+    
+            marker_5c598ab542f1d3c79eebe49e6d0eade1.bindTooltip(
+                `<div>
+                     Fort Tryon Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72506545c46acd3c6c5993a9dbc862c4 = L.marker(
+                [4.08096680378745e+16, -7396722667398150.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_2a819883f21ebf70b06264a6c0ac1097 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72506545c46acd3c6c5993a9dbc862c4.setIcon(icon_2a819883f21ebf70b06264a6c0ac1097);
+        
+    
+        var popup_1fa133a5ef4b4cc346c94d9f07ec35b5 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_1a6e99b12671d86be7edbd4cd753c964 = $(`<div id="html_1a6e99b12671d86be7edbd4cd753c964" style="width: 100.0%; height: 100.0%;"><b>Riverside Park</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>Es considerado el parque costero más impresionante de Manhattan.</div>`)[0];
+            popup_1fa133a5ef4b4cc346c94d9f07ec35b5.setContent(html_1a6e99b12671d86be7edbd4cd753c964);
+        
+
+        marker_72506545c46acd3c6c5993a9dbc862c4.bindPopup(popup_1fa133a5ef4b4cc346c94d9f07ec35b5)
+        ;
+
+        
+    
+    
+            marker_72506545c46acd3c6c5993a9dbc862c4.bindTooltip(
+                `<div>
+                     Riverside Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d24b6955e9c74d88cccd0868fc063985 = L.marker(
+                [4080425787277480.0, -7396258350782520.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_e4a4561a098f609abb45185965df6898 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d24b6955e9c74d88cccd0868fc063985.setIcon(icon_e4a4561a098f609abb45185965df6898);
+        
+    
+        var popup_67c0bea53cb18735fe4f0731031ac966 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_8ff3d7dc88f641b438eee7469f885386 = $(`<div id="html_8ff3d7dc88f641b438eee7469f885386" style="width: 100.0%; height: 100.0%;"><b>Catedral St. John the Divine</b><br><b>Horario:</b> nan<br><b>Costo:</b> nan<br><br>La catedral de San Juan "El Teólogo", oficialmente Iglesia Catedral de San Juan el Divino en la Ciudad y Diócesis de Nueva York, es la catedral de la diócesis episcopaliana de Nueva York. Diseñada en 1888, su contrucción comenzó en 1892 y aún se encuentra incompleta. Desde el exterior lo más llamativo de la catedral es su gran tamaño, además de los diferentes estilos arquitectónicos que dejan evidencia de las constantes interrupciones durante su construcción.</div>`)[0];
+            popup_67c0bea53cb18735fe4f0731031ac966.setContent(html_8ff3d7dc88f641b438eee7469f885386);
+        
+
+        marker_d24b6955e9c74d88cccd0868fc063985.bindPopup(popup_67c0bea53cb18735fe4f0731031ac966)
+        ;
+
+        
+    
+    
+            marker_d24b6955e9c74d88cccd0868fc063985.bindTooltip(
+                `<div>
+                     Catedral St. John the Divine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06e0cc3c91db2080c7b99f107a3ceaf9 = L.marker(
+                [4074239828969320.0, -7398797774700010.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_7ef8f0ea14c9f4afef2bdecc6cb21524 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06e0cc3c91db2080c7b99f107a3ceaf9.setIcon(icon_7ef8f0ea14c9f4afef2bdecc6cb21524);
+        
+    
+        var popup_6560240ac39ec0b3cdb9bbbd512e49a9 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_084556f13d8b8a36cce737ea7e43edc3 = $(`<div id="html_084556f13d8b8a36cce737ea7e43edc3" style="width: 100.0%; height: 100.0%;"><b>Madison Square Park</b><br><b>Horario:</b> -<br><b>Costo:</b> -<br><br>Muy visitado en verano, el parque tiene alrededor edificios famosos como el Flatiron, el Madison Square Garden y el Toy Center.</div>`)[0];
+            popup_6560240ac39ec0b3cdb9bbbd512e49a9.setContent(html_084556f13d8b8a36cce737ea7e43edc3);
+        
+
+        marker_06e0cc3c91db2080c7b99f107a3ceaf9.bindPopup(popup_6560240ac39ec0b3cdb9bbbd512e49a9)
+        ;
+
+        
+    
+    
+            marker_06e0cc3c91db2080c7b99f107a3ceaf9.bindTooltip(
+                `<div>
+                     Madison Square Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c27af69b8453e911be08551daceeb0fe = L.marker(
+                [4.07529533750809e+16, -7397870384699950.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_db9554e564ddc808c7e9a6dec622b504 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c27af69b8453e911be08551daceeb0fe.setIcon(icon_db9554e564ddc808c7e9a6dec622b504);
+        
+    
+        var popup_70fe8e991c2b229c67df7623f2bfa418 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_0b7bac242bfd508e2fc70a0ca5916a08 = $(`<div id="html_0b7bac242bfd508e2fc70a0ca5916a08" style="width: 100.0%; height: 100.0%;"><b>SUMMIT One Vanderbilt</b><br><b>Horario:</b> 9 - 00<br><b>Costo:</b> SUMMIT Experience: 44 - 56, SUMMIT Signature Experience: 58 - 70, SUMMIT Ascent: 66 - 78<br><br>Siendo uno de los más nuevos de Nueva York, este es un mirador en lo alto del One Vanderbilt, un rascacielos de oficinas que está junto a la estación Grand Central Terminal y muy cerca del edificio Chrysler. Con 427 metros de altura, e inaugurado en 2020, es uno de los edificios más altos de Nueva York. El SUMMIT está entre los pisos 91 y 93 del edificio, a más de 330 metros de altura, y otorga vistas del Empire State Building, Central Park o el Chrysler Building. Además, combina una exhibición tecnológica y tiene dos atracciones de vértigo: unos cubos de cristal que te permiten caminar por encima de las calles de Nueva York y un ascensor de cristal. Para entrar, se puede hacer desde la calle 42 o a través del patio principal de la estación Grand Central. Hay que reservar online. La SUMMIT Signature Experience incluye un trago y el SUMMIT Ascent incluye el ascenso por el ascensor de cristal. En los horario del atardecer, se cobra un suplemento de 12 USD.</div>`)[0];
+            popup_70fe8e991c2b229c67df7623f2bfa418.setContent(html_0b7bac242bfd508e2fc70a0ca5916a08);
+        
+
+        marker_c27af69b8453e911be08551daceeb0fe.bindPopup(popup_70fe8e991c2b229c67df7623f2bfa418)
+        ;
+
+        
+    
+    
+            marker_c27af69b8453e911be08551daceeb0fe.bindTooltip(
+                `<div>
+                     SUMMIT One Vanderbilt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc7e6181818a344c3b7141fff45387a3 = L.marker(
+                [4071467973576710.0, -7399821102080140.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_26a0d46401f5fad0e85fc553f208d4ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc7e6181818a344c3b7141fff45387a3.setIcon(icon_26a0d46401f5fad0e85fc553f208d4ed);
+        
+    
+        var popup_0fe1a88fe6d8e96996ade103e51de5c4 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_8a3fcbf2ba48f8d8d78c128eb83afd5e = $(`<div id="html_8a3fcbf2ba48f8d8d78c128eb83afd5e" style="width: 100.0%; height: 100.0%;"><b>Chinatown</b><br><b>Horario:</b> nan<br><b>Costo:</b> nan<br><br>Barrio chino de Manhattan, en dónde se puede encontrar todo tipo de productos de China. Es un buen lugar para hacer shopping. Su mayor atractivo es la posibilidad de recorrer el barrio. Las calles obligatorias son Canal St. Y Mulberry St. Además se puede visitar el parque Columbus solo para ver a la gente.</div>`)[0];
+            popup_0fe1a88fe6d8e96996ade103e51de5c4.setContent(html_8a3fcbf2ba48f8d8d78c128eb83afd5e);
+        
+
+        marker_bc7e6181818a344c3b7141fff45387a3.bindPopup(popup_0fe1a88fe6d8e96996ade103e51de5c4)
+        ;
+
+        
+    
+    
+            marker_bc7e6181818a344c3b7141fff45387a3.bindTooltip(
+                `<div>
+                     Chinatown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7ba7eeb73f0d2e6b7c67cb4a5bafe3e = L.marker(
+                [4.07203564627183e+16, -739496380181658.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_3603061833538ecde40c7ac423895b4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7ba7eeb73f0d2e6b7c67cb4a5bafe3e.setIcon(icon_3603061833538ecde40c7ac423895b4f);
+        
+    
+        var popup_6a7261e241ff65e83ff780c0605c1026 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_4576173deb0d5c1963f26a2a2ac2f2da = $(`<div id="html_4576173deb0d5c1963f26a2a2ac2f2da" style="width: 100.0%; height: 100.0%;"><b>Mercado de Pulgas</b><br><b>Horario:</b> Do: 10 - 17<br><b>Costo:</b> nan<br><br>Famoso mercado de pulgas de Brooklyn, recomendado para dar un paseo</div>`)[0];
+            popup_6a7261e241ff65e83ff780c0605c1026.setContent(html_4576173deb0d5c1963f26a2a2ac2f2da);
+        
+
+        marker_b7ba7eeb73f0d2e6b7c67cb4a5bafe3e.bindPopup(popup_6a7261e241ff65e83ff780c0605c1026)
+        ;
+
+        
+    
+    
+            marker_b7ba7eeb73f0d2e6b7c67cb4a5bafe3e.bindTooltip(
+                `<div>
+                     Mercado de Pulgas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e97c904f0011f15f46a00161a3f60deb = L.marker(
+                [4072115908488740.0, -7396188502567810.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_f26052cb1ac1ff0972b4261bdc287075 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e97c904f0011f15f46a00161a3f60deb.setIcon(icon_f26052cb1ac1ff0972b4261bdc287075);
+        
+    
+        var popup_cc51eb1e08396f6213e24d451a5b2683 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_f2def8d54071e409e81ab67da64911fb = $(`<div id="html_f2def8d54071e409e81ab67da64911fb" style="width: 100.0%; height: 100.0%;"><b>Smorgasburg</b><br><b>Horario:</b> Sa: 11 - 18<br><b>Costo:</b> nan<br><br>Mercado gastronómico de Brooklyn</div>`)[0];
+            popup_cc51eb1e08396f6213e24d451a5b2683.setContent(html_f2def8d54071e409e81ab67da64911fb);
+        
+
+        marker_e97c904f0011f15f46a00161a3f60deb.bindPopup(popup_cc51eb1e08396f6213e24d451a5b2683)
+        ;
+
+        
+    
+    
+            marker_e97c904f0011f15f46a00161a3f60deb.bindTooltip(
+                `<div>
+                     Smorgasburg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_431a37abc594af40c3c97808bc952b3d = L.marker(
+                [4074942896820970.0, -7398139710467110.0],
+                {}
+            ).addTo(map_8afcbbd1c192e7dd7c00bc08b9a70f70);
+        
+    
+            var icon_79cc10ff72cad185c955dd602cc1e045 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_431a37abc594af40c3c97808bc952b3d.setIcon(icon_79cc10ff72cad185c955dd602cc1e045);
+        
+    
+        var popup_b851250c9fdc840c4b37e0e04c9f97a5 = L.popup({"maxWidth": 320, "minWidth": 180});
+
+        
+            var html_a9c750a572bce3c01c3aa059c2a26ad2 = $(`<div id="html_a9c750a572bce3c01c3aa059c2a26ad2" style="width: 100.0%; height: 100.0%;"><b>Biblioteca y Museo Morgan</b><br><b>Horario:</b> Ma - Ju, Sa - Do: 10.30 - 17, Vi: 10.30 - 20<br><b>Costo:</b> 25 USD. Gratis los viernes de 17 - 20 (Hay que reservar online una semana antes)<br><br>La Biblioteca Pierpont Morgan (J. Pierpont Morgan Library), llamada actualmente Biblioteca y Museo Morgan (The Morgan Library & Museum) es un museo y biblioteca de investigación en Nueva York. Fue fundada en 1906, con el fin de almacenar la biblioteca privada de John Pierpont Morgan. En esta biblioteca estaban incluidos, además de manuscritos y libros impresos, una peculiar colección de impresos y dibujos. Para los tickets: https://mpv.tickets.com/schedule/?agency=MGLV_ADM_MPV&orgid=51849#/?view=list&includePackages=true</div>`)[0];
+            popup_b851250c9fdc840c4b37e0e04c9f97a5.setContent(html_a9c750a572bce3c01c3aa059c2a26ad2);
+        
+
+        marker_431a37abc594af40c3c97808bc952b3d.bindPopup(popup_b851250c9fdc840c4b37e0e04c9f97a5)
+        ;
+
+        
+    
+    
+            marker_431a37abc594af40c3c97808bc952b3d.bindTooltip(
+                `<div>
+                     Biblioteca y Museo Morgan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
